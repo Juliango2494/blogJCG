@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: black;
+    
+  }
+  
+  header {
+    border-bottom: 2px solid #ddd;
+    color:#ddd;
+    padding: 1em 0;
+    text-align: center;
+    top: 0;
+    margin-bottom: 10px;
+    position: sticky;
+    background-color: black;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    list-style: none;
+  }
+  nav ul a{
+    text-decoration: none;
+    color: #ddd;
+  }
+  
+  main {
+    padding: 1%;
+    background: url(../assets/images/imagen2.jpeg) no-repeat;
+    background-position: center;
+    background-size: 80%;
+  }
+  
+  article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #999797;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1%;
+    padding: 0 2%;
+    background-color: #ddddddd3;
+    gap: 4%;
+    width: 40%;
+  }
+  article:hover{
+    background-color: #999797;
+  }
+  
+  article img {
+    width: 30%;
+    border-radius: 8px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid #ddd;
+    margin-top: 20px;
+    color: white;
+    padding: 2em;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+    width: 20%;
+  }
+  
+  form input, form textarea, form button {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  form button {
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #999797;
+    margin-bottom: 10%;
+  }
+  
+  form button:hover {
+    background-color:#ddd;
+  }
+  
+  @media (max-width: 600px) {
+    header, footer {
+      text-align: center;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 0.5em 0;
+    }
+  }
+
+  .publicaciones1{
+    display: flex;
+    flex-direction: column;
+    margin: 7% 10%;
+    gap: 5%;
+    padding: 0 5%;
+  }
+  .publicaciones2{
+    display: flex;
+    flex-direction: row;
+    width: 91%;
+    height: 500px;
+  }
+  .publicaciones2:hover{
+    background-color: #ddddddd3;
+  }
+  .publicaciones3{
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+  }
+  .button1{
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #999797;
+  }
+  .button1:hover{
+    background-color: #ddddddd3;
+    cursor: pointer;
+  }
+
+  

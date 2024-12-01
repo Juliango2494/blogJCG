@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Espacio Virtual</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Mi Espacio Virtual</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="publicaciones1" id="publicaciones">
+        <article class="publicaciones2">
+          <img src="assets/images/imagen1.jpeg" alt="Imagen de la publicación 1">
+          <div>
+            <h2>Los 10 pasos mas importantes para la salud fisica y mental de tu mascota.</h2>
+            <p class="fecha">01/12/2024</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi voluptates eveniet exercitationem asperiores libero quam! Odit sed porro tenetur voluptate id consectetur dolorum unde, neque eveniet eius magnam ducimus rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolor repudiandae consequuntur eos placeat labore quam illum aspernatur id  </p>
+            <button class="button1">Ver blog</button>
+          </div>
+        </article>
+        <div class="publicaciones3">
+            <article>
+              <img src="assets/images/imagen2.jpeg" alt="Imagen de la publicación 2">
+              <div>
+                <h2>La arquitectura moderna y su importancia para recuperar el patrimonio arquitectónico</h2>
+                <p class="fecha">08/11/2024</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis, unde repellendus hic excepturi deserunt repudiandae at ratione. Possimus, eos ad veniam laudantium voluptatibus suscipit laborum animi quae magni non?</p>
+              </div>
+                
+            </article>
+            <article>
+              <img src="assets/images/imagen3.jpeg" alt="Imagen de la publicación 3">
+              <div>
+                <h2>Tips mas importantes para viajar</h2>
+                <p class="fecha">03/12/2024</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti pariatur tempore ut repellendus. Saepe dolores accusamus harum, aliquam cupiditate quae doloremque officia corporis, sequi commodi itaque quasi est, nihil tenetur!</p>
+              </div>
+            </article>
+        </div>
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>© 2024 Mi Espacio Virtual</p>
+    <form id="comentarios-form">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="mensaje-exito"></div>
+    <button class="button1" id="ver-estadisticas">Ver estadísticas</button>
+  <div id="contador"></div>
+  </footer>
+  
+  <script src="/src/js.js"></script>
+</body>
+</html>
